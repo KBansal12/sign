@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3f3d3d; /* dark background */
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333; /* dark background with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-wrap {
+    padding: 20px;
+    background-color: #444; /* dark background with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff; /* white text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff; /* white text */
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #555; /* dark background with some transparency */
+    color: #fff; /* white text */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    background-color: #666; /* dark background with some transparency */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b31717e8; /* dark background with some transparency */
+    color: #fff; /* white text */
+    cursor: pointer;
+
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #5e5e5e; /* dark background with some transparency */
+}
+
+
+
+p {
+    font-size: 16px;
+    color: #fff; /* white text */
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; /* white text */
+}
+
+
+
+/* Vintage effect */
+.form-wrap {
+    filter: grayscale(0.5) contrast(1.2) brightness(0.8);
+    transition: filter 0.3s ease-in-out;
+}
+
+.form-wrap:hover {
+    filter: grayscale(0) contrast(1) brightness(1);
+}
